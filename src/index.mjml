@@ -1,0 +1,64 @@
+<mjml>
+  <mj-head>
+    <mj-title>___TITLE___</mj-title>
+    <mj-preview>___PREVIEW___</mj-preview>
+    <mj-attributes>
+      <mj-body background-color="#ffffff" />
+    </mj-attributes>
+    <mj-style>
+      @media all and (max-width: 479px) {
+        .mobile-width-fix {
+          max-width: 300px !important;
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .img { 
+        display: inline-block;
+        border: none;
+        outline: none;
+      }
+    </mj-style>
+  </mj-head>
+	<mj-body>
+
+      <mj-section css-class="mobile-width-fix" padding="0px">
+        <mj-group>
+          <mj-column>
+            <mj-text align="center" 
+                   font-family="Arial" 
+                   font-size="10px" 
+                   line-height="100%" 
+                   color="#999999"
+                   text-decoration="none">
+            <a href="#" target="_blank" style="color:#999999;text-decoration:underline;">Mirror link</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section css-class="mobile-width-fix" padding="0px">
+        <mj-group>
+          <mj-column>
+            <!-- Let's go ! -->
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section css-class="mobile-width-fix" padding="0px">
+        <mj-group>
+          <mj-column>
+            <mj-text align="center" 
+                     font-family="Arial" 
+                     font-size="10px" 
+                     line-height="100%" 
+                     color="#999999"
+                     text-decoration="none">
+            <a href="#" target="_blank" style="color:#999999;text-decoration:underline;">Unsubscribe link</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+	</mj-body>
+</mjml>
