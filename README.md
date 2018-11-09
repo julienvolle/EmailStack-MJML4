@@ -33,7 +33,7 @@ Open console:
 - Cleaning `./dist/` folder  
 - Converting `./src/index.mjml` to `./dist/index.html`  
 - Copy and optimized `./src/images/` in `./dist/images/`  
-- Watch on the MJML file  
+- Watch on the MJML and IMAGE files  
 
 ----
 
